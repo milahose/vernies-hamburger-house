@@ -1,0 +1,149 @@
+body {
+  background-color: #BFC0C0;
+}
+
+nav {
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+  max-width: 40%;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+header,
+nav,
+.navbar-brand,
+footer {
+  background: #1F3F75 !important;
+}
+
+.nav-items,
+.social-icons {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav-items {
+  margin-right: 10px;
+}
+
+.nav-items li,
+.social-icons li {
+  display: inline-block;
+}
+
+.nav-items li {
+  font-size: 1.2em;
+  margin: 15px 5px 0 5px;
+  text-decoration: none;
+}
+
+.nav-items li a {
+  color: #fff !important;
+}
+
+.nav-items li a:hover {
+  text-decoration: none;
+  color: #EF4700 !important;
+}
+
+main {
+  margin: 2rem auto;
+}
+
+iframe {
+  width: 100%;
+}
+
+.card,
+iframe {
+  box-shadow: 0 12px 6px -6px #777;
+}
+
+iframe {
+  margin-top: 2rem;
+}
+
+footer {
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 40px 0;
+}
+
+.fa-yelp {
+  background: #EF4700;
+}
+
+.fa-facebook {
+  background: #125688;
+}
+
+.fa-tripadvisor {
+  background: #00af87;
+}
+
+.fa {
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-tripadvisor {
+  padding-left: 17px;
+}
+
+.fa:hover {
+  color: #fff;
+  opacity: .8;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.copyright:hover {
+  color: #EF4700;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 870px) {
+  .navbar-brand {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .navbar-brand {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar-brand {
+    margin-top: 10px;
+    margin-left: 5px;
+    max-width: 175px;
+  }
+
+  .nav-items li {
+    font-size: .8em;
+    margin-right: 2px;
+  }
+}
