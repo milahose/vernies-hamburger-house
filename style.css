@@ -117,6 +117,24 @@ footer {
   text-decoration: none;
 }
 
+.menu-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu-container .card {
+  margin: 10px auto;
+}
+
+.nav-tabs {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu .card {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 870px) {
   .navbar-brand {
     max-width: 400px;
